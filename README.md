@@ -1,2 +1,2 @@
-# -daf-jsoncsv2rdf-pipeline
+# daf-jsoncsv2rdf-pipeline
 Pipeline for tranforming JSON and CSV data to RDF

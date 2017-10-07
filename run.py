@@ -27,6 +27,7 @@ download_file('https://github.com/tarql/tarql/releases/download/v1.1/tarql-1.1-b
 tar = tarfile.open("tarql.tar.gz")
 tar.extractall()
 tar.close()
+os.remove('tarql.tar.gz')
 print "Done"
 
 try:

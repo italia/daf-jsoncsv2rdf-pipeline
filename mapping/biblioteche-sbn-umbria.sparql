@@ -2,11 +2,14 @@ PREFIX jarql:   <http://jarql.com/>
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema:  <http://schema.org/>
 PREFIX temp:    <http://example.com/>
+PREFIX clvapit: <http://dati.gov.it/onto/clvapit#>
 
 CONSTRUCT {
           ?uri rdfs:label ?label ;
                temp:description ?description ;
-               temp:locatedIn ?uriComune .
+               clvapit:hasCity ?uriComune ;
+               clvapit:hasAddress ?indirizzo;
+               clvapit:hasProvince ?labelProvincia.
           ?uriComune rdfs:label ?labelComune .
 
 }
@@ -26,4 +29,5 @@ OPTIONAL { ?s jarql:ATTIVE_PASSIVE ?statoAttivita }
     BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/", sha1(CONCAT(?label, " - ", ?labelComune)))) AS ?uri)
     BIND(CONCAT(?label, " - ", ?labelComune) AS ?description)
     BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/comuni/", ?labelComune)) AS ?uriComune)
+    BIND(CONCAT(?indirizzoNomeViaPiazza, ", ", ?indirizzoNumeroCivico, ", ", ?indirizzoLocalita, ", ", ?cap, " - ", ?labelComune) AS ?indirizzo)
 }

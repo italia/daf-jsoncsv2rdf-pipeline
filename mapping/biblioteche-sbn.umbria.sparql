@@ -1,0 +1,12 @@
+PREFIX temp: <http://temp.org/>
+PREFIX jarql: <http://jarql.com/>
+
+CONSTRUCT {
+    ?uri temp:label ?label
+}
+WHERE {
+    ?s jarql:NOME ?label .
+    ?s jarql:COMUNE ?comune .
+
+    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/", ?label, " - ", ?comune)) AS ?uri)
+}

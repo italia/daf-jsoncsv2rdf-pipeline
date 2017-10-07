@@ -54,7 +54,7 @@ with open('mapping.csv', 'r') as mapping_file:
       os.remove('tmp_file')
     elif line['format'] == 'json':
       download_file(line['url'], 'tmp_file')
-      os.system('java -jar jarql.jar ' + line['mapping'] + ' tmp_file >> ' + transform_mapping_name(line['mapping']))
+      os.system('java -jar jarql.jar tmp_file ' + line['mapping'] + ' >> ' + transform_mapping_name(line['mapping']))
       os.remove('tmp_file')
     else :
       print 'File format not found!!'

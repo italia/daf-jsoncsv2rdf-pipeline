@@ -12,22 +12,19 @@ CONSTRUCT {
          clvapit:hasRegion ?Descrizione_Regione .
     ?URIComune clvapit:Identifier ?Codice_Comune ;
          rdfs:label ?Comune ;
-         owl:sameAs ?city .
-    ?city <http://dbpedia.org/ontology/areaCode> ?ISTAT .
-
-}
+         owl:sameAs ?cityDBPedia .
+           }
 WHERE {
 
 
           OPTIONAL {
                     SERVICE <http://it.dbpedia.org/sparql> {
-                      SELECT ?ISTAT {
-                        ?city a <http://dbpedia.org/ontology/PopulatedPlace> .
-                        ?city <http://it.dbpedia.org/property/stato> "ITA"@it .
-                        ?city <http://it.dbpedia.org/property/gradoAmministrativo> 3 .
-                        ?city <http://dbpedia.org/ontology/areaCode> ?ISTAT .
+                      SELECT ?cityDBPedia {
+                        ?cityDBPedia a <http://dbpedia.org/ontology/PopulatedPlace> ;
+                        <http://it.dbpedia.org/property/stato> "ITA"@it ;
+                        <http://it.dbpedia.org/property/gradoAmministrativo> 3 ;
+                        <http://dbpedia.org/ontology/areaCode> ?Codice_Comune .
                         }
-                      LIMIT 10
                       }
                    }
 

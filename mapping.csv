@@ -1,1 +1,2 @@
 url,format,mapping
+http://www.dati.salute.gov.it/imgs/C_17_dataset_68_download_itemDownload_0_upFile.csv,scsv,mapping/aziende-ospedaliere.sparql

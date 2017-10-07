@@ -1,7 +1,14 @@
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema:  <http://schema.org/>
+PREFIX clvapit: <http://dati.gov.it/onto/clvapit>
 
 CONSTRUCT {
-    ?URI rdfs:label ?Denominazione_struttura
+    ?URI a ?Descrizione_tipo_struttura;
+         rdfs:label ?Denominazione_struttura;
+         clvapit:hasAddress ?Indirizzo;
+         clvapit:hasCity ?Comune;
+         clvapit:hasProvince ?Sigla_provincia;
+         clvapit:hasRegion ?Descrizione_Regione
 }
 WHERE {
     BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_struttura)) AS ?URI)

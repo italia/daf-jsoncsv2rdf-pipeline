@@ -27,6 +27,7 @@ download_file('https://github.com/tarql/tarql/releases/download/v1.1/tarql-1.1-b
 tar = tarfile.open("tarql.tar.gz")
 tar.extractall()
 tar.close()
+os.remove('tarql.tar.gz')
 print "Done"
 
 try:
@@ -39,7 +40,7 @@ counter = 0
 with open('mapping.csv', 'r') as mapping_file:
   mapping_dict = csv.DictReader(mapping_file)
   for line in mapping_dict:
-    print 'Elaborating line ' + str(counter) + " ", line
+    print 'Magic happening on line ' + str(counter) + " ", line, "..."
     if line['format'] == 'csv':
       download_file(line['url'], 'tmp_file')
       os.system('./tarql-1.1/bin/tarql --delimiter=comma ' + line['mapping'] + ' tmp_file >> target/' + transform_mapping_name(line['mapping']))
@@ -60,3 +61,5 @@ with open('mapping.csv', 'r') as mapping_file:
       print 'File format not found!!'
       sys.exit(1)
     counter += 1
+    print "Done"
+print "The End!"    

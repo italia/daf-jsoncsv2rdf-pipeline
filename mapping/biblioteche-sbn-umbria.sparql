@@ -25,5 +25,5 @@ OPTIONAL { ?s jarql:ATTIVE_PASSIVE ?statoAttivita }
 
     BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/", sha1(CONCAT(?label, " - ", ?labelComune)))) AS ?uri)
     BIND(CONCAT(?label, " - ", ?labelComune) AS ?description)
-    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/comuni/", ?comune)) AS ?uriComune)
+    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/comuni/", ?labelComune)) AS ?uriComune)
 }

@@ -1,12 +1,29 @@
-PREFIX temp: <http://temp.org/>
-PREFIX jarql: <http://jarql.com/>
+PREFIX jarql:   <http://jarql.com/>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema:  <http://schema.org/>
+PREFIX temp:    <http://example.com/>
 
 CONSTRUCT {
-    ?uri temp:label ?label
+          ?uri rdfs:label ?label ;
+               temp:description ?description ;
+               temp:locatedIn ?uriComune .
+          ?uriComune rdfs:label ?labelComune .
+
 }
 WHERE {
-    ?s jarql:NOME ?label .
-    ?s jarql:COMUNE ?comune .
+OPTIONAL { ?s jarql:NOME ?label }
+OPTIONAL { ?s jarql:COMUNE ?labelComune }
+OPTIONAL { ?s jarql:PROVINCIA ?labelProvincia }
+OPTIONAL { ?s jarql:CAP ?cap }
+OPTIONAL { ?s jarql:LOCALITA ?indirizzoLocalita }
+OPTIONAL { ?s jarql:INDIRIZZO ?indirizzoNomeViaPiazza }
+OPTIONAL { ?s jarql:NUMERO_CIVICO ?indirizzoNumeroCivico }
+OPTIONAL { ?s jarql:EMAIL ?email }
+OPTIONAL { ?s jarql:NUMERO_TELEFONO ?email }
+OPTIONAL { ?s jarql:NUMERO_FAX ?email }
+OPTIONAL { ?s jarql:ATTIVE_PASSIVE ?statoAttivita }
 
-    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/", ?label, " - ", ?comune)) AS ?uri)
+    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/", sha1(CONCAT(?label, " - ", ?labelComune)))) AS ?uri)
+    BIND(CONCAT(?label, " - ", ?labelComune) AS ?description)
+    BIND(URI(CONCAT("http://dati.gov.it/dataset/biblioteche-umbria/comuni/", ?comune)) AS ?uriComune)
 }

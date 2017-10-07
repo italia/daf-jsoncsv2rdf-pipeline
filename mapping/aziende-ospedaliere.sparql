@@ -6,10 +6,13 @@ CONSTRUCT {
     ?URI a ?Descrizione_tipo_struttura;
          rdfs:label ?Denominazione_struttura;
          clvapit:hasAddress ?Indirizzo;
-         clvapit:hasCity ?Comune;
+         clvapit:hasCity ?URIComune;
          clvapit:hasProvince ?Sigla_provincia;
-         clvapit:hasRegion ?Descrizione_Regione
+         clvapit:hasRegion ?Descrizione_Regione.
+    ?URIComune clvapit:Identifier ?Codice_Comune;
+         rdfs:label ?Comune
 }
 WHERE {
     BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_struttura)) AS ?URI)
+    BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_Comune)) AS ?URIComune)
 }

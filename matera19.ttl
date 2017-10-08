@@ -1,0 +1,215 @@
+@prefix cis: <http://dati.beniculturali.it/cis/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.comune.matera.it/monumenti/AUDITORIUM> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/AUDITORIUM_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/AUDITORIUM_geometry> .
+
+<http://www.comune.matera.it/monumenti/CASA_CAVA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CASA_CAVA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CASA_CAVA_geometry> .
+
+<http://www.comune.matera.it/monumenti/CASINO_PADULA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CASINO_PADULA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CASINO_PADULA_geometry> .
+
+<http://www.comune.matera.it/monumenti/CAVA_PARADISO> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CAVA_PARADISO_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CAVA_PARADISO_geometry> .
+
+<http://www.comune.matera.it/monumenti/CHIESA_DI_SAN_PIETRO_BARISANO> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CHIESA_DI_SAN_PIETRO_BARISANO_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CHIESA_DI_SAN_PIETRO_BARISANO_geometry> .
+
+<http://www.comune.matera.it/monumenti/CHIESA_SANTA_LUCIA_E_AGATA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CHIESA_SANTA_LUCIA_E_AGATA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CHIESA_SANTA_LUCIA_E_AGATA_geometry> .
+
+<http://www.comune.matera.it/monumenti/COMITATO_MARIA_S.S._DELLA_BRUNA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/COMITATO_MARIA_S.S._DELLA_BRUNA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/COMITATO_MARIA_S.S._DELLA_BRUNA_geometry> .
+
+<http://www.comune.matera.it/monumenti/COMPLESSO_DEL_CASALE> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/COMPLESSO_DEL_CASALE_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/COMPLESSO_DEL_CASALE_geometry> .
+
+<http://www.comune.matera.it/monumenti/CONSERVATORIO_DI_MUSICA_E._R._DUNI> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CONSERVATORIO_DI_MUSICA_E._R._DUNI_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CONSERVATORIO_DI_MUSICA_E._R._DUNI_geometry> .
+
+<http://www.comune.matera.it/monumenti/CONVICINIO_DI_SANT_ANTONIO> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/CONVICINIO_DI_SANT_ANTONIO_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/CONVICINIO_DI_SANT_ANTONIO_geometry> .
+
+<http://www.comune.matera.it/monumenti/MADONNA_DELL_IDRIS> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/MADONNA_DELL_IDRIS_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/MADONNA_DELL_IDRIS_geometry> .
+
+<http://www.comune.matera.it/monumenti/MUSEO_DOMENICO_RIDOLA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/MUSEO_DOMENICO_RIDOLA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/MUSEO_DOMENICO_RIDOLA_geometry> .
+
+<http://www.comune.matera.it/monumenti/MUSMA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/MUSMA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/MUSMA_geometry> .
+
+<http://www.comune.matera.it/monumenti/PALAZZO_LANFRANCHI> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/PALAZZO_LANFRANCHI_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/PALAZZO_LANFRANCHI_geometry> .
+
+<http://www.comune.matera.it/monumenti/PALOMBARO_LUNGO> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/PALOMBARO_LUNGO_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/PALOMBARO_LUNGO_geometry> .
+
+<http://www.comune.matera.it/monumenti/SANTA_LUCIA_ALLE_MALVE> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/SANTA_LUCIA_ALLE_MALVE_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/SANTA_LUCIA_ALLE_MALVE_geometry> .
+
+<http://www.comune.matera.it/monumenti/SAN_GIOVANNI_BATTISTA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/SAN_GIOVANNI_BATTISTA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/SAN_GIOVANNI_BATTISTA_geometry> .
+
+<http://www.comune.matera.it/monumenti/TEATRO_LUIGI_QUARONI_> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/TEATRO_LUIGI_QUARONI__address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/TEATRO_LUIGI_QUARONI__geometry> .
+
+<http://www.comune.matera.it/monumenti/UNIVERSITA_DELLA_BASILICATA> a cis:Site ;
+    cis:hasAddress <http://www.comune.matera.it/monumenti/UNIVERSITA_DELLA_BASILICATA_address> ;
+    cis:hasGeometry <http://www.comune.matera.it/monumenti/UNIVERSITA_DELLA_BASILICATA_geometry> .
+
+<http://www.comune.matera.it/monumenti/AUDITORIUM_address> a cis:Address ;
+    cis:fullAddress "VIA SAN FRANCESCO D_ASSISI" .
+
+<http://www.comune.matera.it/monumenti/AUDITORIUM_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66533" ;
+    cis:hasLongitude "16.60959" .
+
+<http://www.comune.matera.it/monumenti/CASA_CAVA_address> a cis:Address ;
+    cis:fullAddress "VIA SAN PIETRO BARISANO" .
+
+<http://www.comune.matera.it/monumenti/CASA_CAVA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66849" ;
+    cis:hasLongitude "16.60921" .
+
+<http://www.comune.matera.it/monumenti/CASINO_PADULA_address> a cis:Address ;
+    cis:fullAddress "VIA DELL_ARIETE" .
+
+<http://www.comune.matera.it/monumenti/CASINO_PADULA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.64239" ;
+    cis:hasLongitude "16.62508" .
+
+<http://www.comune.matera.it/monumenti/CAVA_PARADISO_address> a cis:Address ;
+    cis:fullAddress "CONTRADA LA PALOMBA" .
+
+<http://www.comune.matera.it/monumenti/CAVA_PARADISO_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.68084" ;
+    cis:hasLongitude "16.60508" .
+
+<http://www.comune.matera.it/monumenti/CHIESA_DI_SAN_PIETRO_BARISANO_address> a cis:Address ;
+    cis:fullAddress "VIA SAN PIETRO BARISANO" .
+
+<http://www.comune.matera.it/monumenti/CHIESA_DI_SAN_PIETRO_BARISANO_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66876" ;
+    cis:hasLongitude "16.60927" .
+
+<http://www.comune.matera.it/monumenti/CHIESA_SANTA_LUCIA_E_AGATA_address> a cis:Address ;
+    cis:fullAddress "PORTA PISTOLA" .
+
+<http://www.comune.matera.it/monumenti/CHIESA_SANTA_LUCIA_E_AGATA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66708" ;
+    cis:hasLongitude "16.61387" .
+
+<http://www.comune.matera.it/monumenti/COMITATO_MARIA_S.S._DELLA_BRUNA_address> a cis:Address ;
+    cis:fullAddress "PIAZZA VITTORIO VENETO" .
+
+<http://www.comune.matera.it/monumenti/COMITATO_MARIA_S.S._DELLA_BRUNA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66712" ;
+    cis:hasLongitude "16.60595" .
+
+<http://www.comune.matera.it/monumenti/COMPLESSO_DEL_CASALE_address> a cis:Address ;
+    cis:fullAddress "VIA CASALE" .
+
+<http://www.comune.matera.it/monumenti/COMPLESSO_DEL_CASALE_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66871" ;
+    cis:hasLongitude "16.61061" .
+
+<http://www.comune.matera.it/monumenti/CONSERVATORIO_DI_MUSICA_E._R._DUNI_address> a cis:Address ;
+    cis:fullAddress "PIAZZA DEL SEDILE" .
+
+<http://www.comune.matera.it/monumenti/CONSERVATORIO_DI_MUSICA_E._R._DUNI_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66529" ;
+    cis:hasLongitude "16.60975" .
+
+<http://www.comune.matera.it/monumenti/CONVICINIO_DI_SANT_ANTONIO_address> a cis:Address ;
+    cis:fullAddress "RIONE CASALNUOVO" .
+
+<http://www.comune.matera.it/monumenti/CONVICINIO_DI_SANT_ANTONIO_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66163" ;
+    cis:hasLongitude "16.61282" .
+
+<http://www.comune.matera.it/monumenti/MADONNA_DELL_IDRIS_address> a cis:Address ;
+    cis:fullAddress "VIA MADONNA DELL_IDRIS" .
+
+<http://www.comune.matera.it/monumenti/MADONNA_DELL_IDRIS_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66408" ;
+    cis:hasLongitude "16.61213" .
+
+<http://www.comune.matera.it/monumenti/MUSEO_DOMENICO_RIDOLA_address> a cis:Address ;
+    cis:fullAddress "VIA DOMENICO EIDOLA" .
+
+<http://www.comune.matera.it/monumenti/MUSEO_DOMENICO_RIDOLA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66385" ;
+    cis:hasLongitude "16.60921" .
+
+<http://www.comune.matera.it/monumenti/MUSMA_address> a cis:Address ;
+    cis:fullAddress "VIA MURO" .
+
+<http://www.comune.matera.it/monumenti/MUSMA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66611" ;
+    cis:hasLongitude "16.61227" .
+
+<http://www.comune.matera.it/monumenti/PALAZZO_LANFRANCHI_address> a cis:Address ;
+    cis:fullAddress "PIAZZETTA G. PASCOLI" .
+
+<http://www.comune.matera.it/monumenti/PALAZZO_LANFRANCHI_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66318" ;
+    cis:hasLongitude "16.61012" .
+
+<http://www.comune.matera.it/monumenti/PALOMBARO_LUNGO_address> a cis:Address ;
+    cis:fullAddress "PIAZZA VITTORIO VENETO" .
+
+<http://www.comune.matera.it/monumenti/PALOMBARO_LUNGO_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66667" ;
+    cis:hasLongitude "16.60645" .
+
+<http://www.comune.matera.it/monumenti/SANTA_LUCIA_ALLE_MALVE_address> a cis:Address ;
+    cis:fullAddress "RIONE MALVE" .
+
+<http://www.comune.matera.it/monumenti/SANTA_LUCIA_ALLE_MALVE_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66317" ;
+    cis:hasLongitude "16.61247" .
+
+<http://www.comune.matera.it/monumenti/SAN_GIOVANNI_BATTISTA_address> a cis:Address ;
+    cis:fullAddress "PIAZZA SAN GIOVANNI BATTISTA" .
+
+<http://www.comune.matera.it/monumenti/SAN_GIOVANNI_BATTISTA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66774" ;
+    cis:hasLongitude "16.60796" .
+
+<http://www.comune.matera.it/monumenti/TEATRO_LUIGI_QUARONI__address> a cis:Address ;
+    cis:fullAddress "BORGO LA MARTELLA" .
+
+<http://www.comune.matera.it/monumenti/TEATRO_LUIGI_QUARONI__geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66112" ;
+    cis:hasLongitude "16.53571" .
+
+<http://www.comune.matera.it/monumenti/UNIVERSITA_DELLA_BASILICATA_address> a cis:Address ;
+    cis:fullAddress "VIA SAN ROCCO" .
+
+<http://www.comune.matera.it/monumenti/UNIVERSITA_DELLA_BASILICATA_geometry> a cis:Geometry ;
+    cis:hasLatitude "40.66728" ;
+    cis:hasLongitude "16.60859" .
+

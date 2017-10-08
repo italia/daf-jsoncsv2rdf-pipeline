@@ -27,24 +27,29 @@ with open('mapping.csv', 'r') as mapping_file:
   for line in mapping_dict:
     print 'Magic happening on line ' + str(counter) + " ", line, "..."
 
+    filename = transform_mapping_name(line['mapping']);
+
+    if os.path.exists(filename):
+      os.remove(filename)
+
     if line['format'] == 'csv':
       download_file(line['url'], 'tmp_file')
-      os.system('./tarql-1.1/bin/tarql --delimiter=comma ' + line['mapping'] + ' tmp_file >> target/' + transform_mapping_name(line['mapping']))
+      os.system('./tarql-1.1/bin/tarql --delimiter=comma ' + line['mapping'] + ' tmp_file >> target/' + filename)
       os.remove('tmp_file')
 
     elif line['format'] == 'dsv':
       download_file(line['url'], 'tmp_file')
-      os.system('./tarql-1.1/bin/tarql --delimiter=dash ' + line['mapping'] + ' tmp_file >> target/' + transform_mapping_name(['mapping']))
+      os.system('./tarql-1.1/bin/tarql --delimiter=dash ' + line['mapping'] + ' tmp_file >> target/' + filename)
       os.remove('tmp_file')
 
     elif line['format'] == 'scsv':
       download_file(line['url'], 'tmp_file')
-      os.system('./tarql-1.1/bin/tarql --delimiter=semicolon ' + line['mapping'] + ' tmp_file >> ' + transform_mapping_name(line['mapping']))
+      os.system('./tarql-1.1/bin/tarql --delimiter=semicolon ' + line['mapping'] + ' tmp_file >> ' + filename)
       os.remove('tmp_file')
 
     elif line['format'] == 'json':
       download_file(line['url'], 'tmp_file')
-      os.system('java -jar jarql.jar tmp_file ' + line['mapping'] + ' >> ' + transform_mapping_name(line['mapping']))
+      os.system('java -jar jarql.jar tmp_file ' + line['mapping'] + ' >> ' + filename)
       os.remove('tmp_file')
 
     else :

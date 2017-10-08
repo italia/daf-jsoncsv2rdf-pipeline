@@ -1,7 +1,5 @@
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX schema:  <http://schema.org/>
 PREFIX clvapit: <http://dati.gov.it/onto/clvapit#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 CONSTRUCT {
     ?URI a ?Descrizione_tipo_struttura ;
@@ -10,24 +8,11 @@ CONSTRUCT {
          clvapit:hasCity ?URIComune ;
          clvapit:hasProvince ?Sigla_provincia ;
          clvapit:hasRegion ?Descrizione_Regione .
+
     ?URIComune clvapit:Identifier ?Codice_Comune ;
-         rdfs:label ?Comune ;
-         owl:sameAs ?cityDBPedia .
-           }
+         rdfs:label ?Comune .
+}
 WHERE {
-
-
-          OPTIONAL {
-                    SERVICE <http://it.dbpedia.org/sparql> {
-                      SELECT ?cityDBPedia {
-                        ?cityDBPedia a <http://dbpedia.org/ontology/PopulatedPlace> ;
-                        <http://it.dbpedia.org/property/stato> "ITA"@it ;
-                        <http://it.dbpedia.org/property/gradoAmministrativo> 3 ;
-                        <http://dbpedia.org/ontology/areaCode> ?Codice_Comune .
-                        }
-                      }
-                   }
-
     BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_struttura)) AS ?URI)
     BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/comuni/', ?Codice_Comune)) AS ?URIComune)
 }

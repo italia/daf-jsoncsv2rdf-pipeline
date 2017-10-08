@@ -16,18 +16,17 @@ CONSTRUCT {
            }
 WHERE {
 
+BIND (STR(?Sigla_provincia) AS ?Stringa_provincia)
 
-          OPTIONAL {
-                    SERVICE <http://it.dbpedia.org/sparql> {
-                      SELECT ?cityDBPedia {
-                        ?cityDBPedia a <http://dbpedia.org/ontology/PopulatedPlace> ;
-                        <http://it.dbpedia.org/property/stato> "ITA"@it ;
-                        <http://it.dbpedia.org/property/gradoAmministrativo> 3 ;
-                        <http://dbpedia.org/ontology/areaCode> ?Codice_Comune .
-                        }
-                      }
-                   }
+OPTIONAL {
+             SERVICE <http://it.dbpedia.org/sparql> {
+                 ?cityDBPedia a <http://dbpedia.org/ontology/PopulatedPlace> ;
+                 <http://it.dbpedia.org/property/stato> "ITA"@it ;
+                 <http://it.dbpedia.org/property/gradoAmministrativo> 3 ;
+                 <http://it.dbpedia.org/property/codiceStatistico> ?Codice_Comune ;
+               }
+            }
+BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_struttura)) AS ?URI)
+BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/comuni/', ?Codice_Comune)) AS ?URIComune)
 
-    BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/', ?Codice_struttura)) AS ?URI)
-    BIND (URI(CONCAT('http://dati.gov.it/dataset/aziende-ospedaliere/comuni/', ?Codice_Comune)) AS ?URIComune)
 }

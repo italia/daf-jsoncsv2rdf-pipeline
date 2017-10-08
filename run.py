@@ -1,6 +1,5 @@
 import requests
 import csv
-import tarfile
 import os
 import re
 import sys
@@ -15,20 +14,6 @@ def download_file(url, filename):
 
 def transform_mapping_name(name):
   return re.sub(r".sparql", '.ttl', re.sub(r'^mapping', 'target', name))
-
-# Download jarql
-print "Downloading Jarql..."
-download_file('https://github.com/linked-solutions/jarql/releases/download/jarql-1.0.0/jarql-1.0.0.jar', 'jarql.jar')
-print "Done"
-
-# Download tarql
-print "Downloading Tarql..."
-download_file('https://github.com/tarql/tarql/releases/download/v1.1/tarql-1.1-bin.tar.gz', 'tarql.tar.gz')
-tar = tarfile.open("tarql.tar.gz")
-tar.extractall()
-tar.close()
-os.remove('tarql.tar.gz')
-print "Done"
 
 try:
     os.stat('target')
@@ -69,4 +54,4 @@ with open('mapping.csv', 'r') as mapping_file:
     counter += 1
     print "Done"
 
-print "The End!"    
+print "The End!"

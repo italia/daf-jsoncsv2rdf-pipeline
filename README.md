@@ -12,4 +12,4 @@ In bin folder of your Tarql installation, run
 ./tarql 19luoghicultura.sparql 19-luoghi-della-cultura.csv
 ```
 
-The pipeline read CSV column and for each URL present in the WHERE clause of SPARQL CONSTRUCT, it converts the value in RDF (Turtle) using a URI for each instance.
+The pipeline read CSV column and for each URL present in the WHERE clause of SPARQL CONSTRUCT query, it converts the value in RDF (Turtle) using a URI for each instance.

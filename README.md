@@ -1,7 +1,7 @@
 # daf-jsoncsv2rdf-pipeline
-Pipeline for tranforming CSV data to RDF
+Pipeline for tranforming CSV data to RDF, developed during [hackdev17](https://hack.developers.italia.it/)
 
-This project depends on [Tarql](https://github.com/tarql/tarql). The idea is to write a SPARQL CONSTRUCT query in order to map the initial CSV data with [CULTURAL-ON ontology](http://dati.beniculturali.it/lodview/cis/.html).
+This project depends on [Tarql](https://github.com/tarql/tarql). The idea is to write a SPARQL CONSTRUCT query in order to map the initial [CSV data](http://dati.comune.matera.it/dataset/19luoghidellacultura) with [CULTURAL-ON ontology](http://dati.beniculturali.it/lodview/cis/.html).
 
 # How to build
 You need to download Tarql binary files.

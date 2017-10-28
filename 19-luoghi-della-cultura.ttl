@@ -7,7 +7,7 @@
         rdfs:label   "MUSMA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_MURO>
+<http://dati.comune.matera.it/19luoghicultura/MUSMA/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA MURO" .
 
@@ -21,7 +21,7 @@
         rdfs:label   "CASINO PADULA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_DELL_ARIETE>
+<http://dati.comune.matera.it/19luoghicultura/CASINO_PADULA/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA DELL_ARIETE" .
 
@@ -32,14 +32,14 @@
 
 <http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI>
         rdf:type     cis:CulturalInstituteOrSite ;
-        rdfs:label   "TEATRO LUIGI QUARONI " ;
+        rdfs:label   "TEATRO LUIGI QUARONI" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/BORGO_LA_MARTELLA>
+<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI_/address>
         rdf:type    cis:Address ;
         rdfs:label  "BORGO LA MARTELLA" .
 
-<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI/geometry>
+<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI_/geometry>
         rdf:type     cis:Geometry ;
         cis:HasLat   "40.66112" ;
         cis:HasLong  "16.53571" .
@@ -49,7 +49,7 @@
         rdfs:label   "CONVICINIO DI SANT_ANTONIO" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/RIONE_CASALNUOVO>
+<http://dati.comune.matera.it/19luoghicultura/CONVICINIO_DI_SANT_ANTONIO/address>
         rdf:type    cis:Address ;
         rdfs:label  "RIONE CASALNUOVO" .
 
@@ -63,7 +63,7 @@
         rdfs:label   "SANTA LUCIA ALLE MALVE" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/RIONE_MALVE>
+<http://dati.comune.matera.it/19luoghicultura/SANTA_LUCIA_ALLE_MALVE/address>
         rdf:type    cis:Address ;
         rdfs:label  "RIONE MALVE" .
 
@@ -77,7 +77,7 @@
         rdfs:label   "PALAZZO LANFRANCHI" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PIAZZETTA_G._PASCOLI>
+<http://dati.comune.matera.it/19luoghicultura/PALAZZO_LANFRANCHI/address>
         rdf:type    cis:Address ;
         rdfs:label  "PIAZZETTA G. PASCOLI" .
 
@@ -91,7 +91,7 @@
         rdfs:label   "MUSEO DOMENICO RIDOLA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_DOMENICO_EIDOLA>
+<http://dati.comune.matera.it/19luoghicultura/MUSEO_DOMENICO_RIDOLA/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA DOMENICO EIDOLA" .
 
@@ -105,7 +105,7 @@
         rdfs:label   "MADONNA DELL_IDRIS" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_MADONNA_DELL_IDRIS>
+<http://dati.comune.matera.it/19luoghicultura/MADONNA_DELL_IDRIS/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA MADONNA DELL_IDRIS" .
 
@@ -119,7 +119,7 @@
         rdfs:label   "CONSERVATORIO DI MUSICA E. R. DUNI" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PIAZZA_DEL_SEDILE>
+<http://dati.comune.matera.it/19luoghicultura/CONSERVATORIO_DI_MUSICA_E._R._DUNI/address>
         rdf:type    cis:Address ;
         rdfs:label  "PIAZZA DEL SEDILE" .
 
@@ -133,7 +133,7 @@
         rdfs:label   "AUDITORIUM" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_SAN_FRANCESCO_D_ASSISI>
+<http://dati.comune.matera.it/19luoghicultura/AUDITORIUM/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA SAN FRANCESCO D_ASSISI" .
 
@@ -147,7 +147,7 @@
         rdfs:label   "PALOMBARO LUNGO" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PIAZZA_VITTORIO_VENETO>
+<http://dati.comune.matera.it/19luoghicultura/PALOMBARO_LUNGO/address>
         rdf:type    cis:Address ;
         rdfs:label  "PIAZZA VITTORIO VENETO" .
 
@@ -161,7 +161,7 @@
         rdfs:label   "CHIESA SANTA LUCIA E AGATA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PORTA_PISTOLA>
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_SANTA_LUCIA_E_AGATA/address>
         rdf:type    cis:Address ;
         rdfs:label  "PORTA PISTOLA" .
 
@@ -175,7 +175,7 @@
         rdfs:label   "COMITATO MARIA S.S. DELLA BRUNA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PIAZZA_VITTORIO_VENETO>
+<http://dati.comune.matera.it/19luoghicultura/COMITATO_MARIA_S.S._DELLA_BRUNA/address>
         rdf:type    cis:Address ;
         rdfs:label  "PIAZZA VITTORIO VENETO" .
 
@@ -189,7 +189,7 @@
         rdfs:label   "UNIVERSITA DELLA BASILICATA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_SAN_ROCCO>
+<http://dati.comune.matera.it/19luoghicultura/UNIVERSITA_DELLA_BASILICATA/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA SAN ROCCO" .
 
@@ -203,7 +203,7 @@
         rdfs:label   "CASA CAVA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_SAN_PIETRO_BARISANO>
+<http://dati.comune.matera.it/19luoghicultura/CASA_CAVA/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA SAN PIETRO BARISANO" .
 
@@ -217,7 +217,7 @@
         rdfs:label   "COMPLESSO DEL CASALE" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_CASALE>
+<http://dati.comune.matera.it/19luoghicultura/COMPLESSO_DEL_CASALE/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA CASALE" .
 
@@ -231,7 +231,7 @@
         rdfs:label   "SAN GIOVANNI BATTISTA" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/PIAZZA_SAN_GIOVANNI_BATTISTA>
+<http://dati.comune.matera.it/19luoghicultura/SAN_GIOVANNI_BATTISTA/address>
         rdf:type    cis:Address ;
         rdfs:label  "PIAZZA SAN GIOVANNI BATTISTA" .
 
@@ -245,7 +245,7 @@
         rdfs:label   "CHIESA DI SAN PIETRO BARISANO" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/VIA_SAN_PIETRO_BARISANO>
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_DI_SAN_PIETRO_BARISANO/address>
         rdf:type    cis:Address ;
         rdfs:label  "VIA SAN PIETRO BARISANO" .
 
@@ -259,7 +259,7 @@
         rdfs:label   "CAVA PARADISO" ;
         cis:hasSite  cis:Site .
 
-<http://dati.comune.matera.it/19luoghicultura/CONTRADA_LA_PALOMBA>
+<http://dati.comune.matera.it/19luoghicultura/CAVA_PARADISO/address>
         rdf:type    cis:Address ;
         rdfs:label  "CONTRADA LA PALOMBA" .
 

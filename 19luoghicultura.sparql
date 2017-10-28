@@ -20,7 +20,7 @@ CONSTRUCT {
   }
   FROM <file:19-luoghi-della-cultura.csv>
   WHERE {
-    BIND (URI(CONCAT('http://dati.comune.matera.it/19luoghicultura/', ?LUOGO)) AS ?URI)
+    	BIND (URI(CONCAT('http://dati.comune.matera.it/19luoghicultura/', ?LUOGO)) AS ?URI)
 	BIND (URI(CONCAT('http://dati.comune.matera.it/19luoghicultura/', ?INDIRIZZO)) AS ?URIAddress)
 	BIND (URI(CONCAT('http://dati.comune.matera.it/19luoghicultura/', ?LUOGO, '/geometry')) AS ?URIGeometry)
 	BIND (URI(CONCAT(?URIGeometry, ?LAT)) AS ?lat)

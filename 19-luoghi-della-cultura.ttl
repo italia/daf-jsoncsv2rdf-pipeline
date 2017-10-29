@@ -1,0 +1,269 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cis:  <http://dati.beniculturali.it/cis#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSMA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "MUSMA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSMA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA MURO" .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSMA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66611" ;
+        cis:HasLong  "16.61227" .
+
+<http://dati.comune.matera.it/19luoghicultura/CASINO_PADULA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CASINO PADULA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CASINO_PADULA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA DELL_ARIETE" .
+
+<http://dati.comune.matera.it/19luoghicultura/CASINO_PADULA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.64239" ;
+        cis:HasLong  "16.62508" .
+
+<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "TEATRO LUIGI QUARONI" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI_/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "BORGO LA MARTELLA" .
+
+<http://dati.comune.matera.it/19luoghicultura/TEATRO_LUIGI_QUARONI_/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66112" ;
+        cis:HasLong  "16.53571" .
+
+<http://dati.comune.matera.it/19luoghicultura/CONVICINIO_DI_SANT_ANTONIO>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CONVICINIO DI SANT_ANTONIO" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CONVICINIO_DI_SANT_ANTONIO/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "RIONE CASALNUOVO" .
+
+<http://dati.comune.matera.it/19luoghicultura/CONVICINIO_DI_SANT_ANTONIO/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66163" ;
+        cis:HasLong  "16.61282" .
+
+<http://dati.comune.matera.it/19luoghicultura/SANTA_LUCIA_ALLE_MALVE>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "SANTA LUCIA ALLE MALVE" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/SANTA_LUCIA_ALLE_MALVE/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "RIONE MALVE" .
+
+<http://dati.comune.matera.it/19luoghicultura/SANTA_LUCIA_ALLE_MALVE/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66317" ;
+        cis:HasLong  "16.61247" .
+
+<http://dati.comune.matera.it/19luoghicultura/PALAZZO_LANFRANCHI>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "PALAZZO LANFRANCHI" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/PALAZZO_LANFRANCHI/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PIAZZETTA G. PASCOLI" .
+
+<http://dati.comune.matera.it/19luoghicultura/PALAZZO_LANFRANCHI/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66318" ;
+        cis:HasLong  "16.61012" .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSEO_DOMENICO_RIDOLA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "MUSEO DOMENICO RIDOLA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSEO_DOMENICO_RIDOLA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA DOMENICO EIDOLA" .
+
+<http://dati.comune.matera.it/19luoghicultura/MUSEO_DOMENICO_RIDOLA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66385" ;
+        cis:HasLong  "16.60921" .
+
+<http://dati.comune.matera.it/19luoghicultura/MADONNA_DELL_IDRIS>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "MADONNA DELL_IDRIS" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/MADONNA_DELL_IDRIS/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA MADONNA DELL_IDRIS" .
+
+<http://dati.comune.matera.it/19luoghicultura/MADONNA_DELL_IDRIS/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66408" ;
+        cis:HasLong  "16.61213" .
+
+<http://dati.comune.matera.it/19luoghicultura/CONSERVATORIO_DI_MUSICA_E._R._DUNI>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CONSERVATORIO DI MUSICA E. R. DUNI" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CONSERVATORIO_DI_MUSICA_E._R._DUNI/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PIAZZA DEL SEDILE" .
+
+<http://dati.comune.matera.it/19luoghicultura/CONSERVATORIO_DI_MUSICA_E._R._DUNI/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66529" ;
+        cis:HasLong  "16.60975" .
+
+<http://dati.comune.matera.it/19luoghicultura/AUDITORIUM>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "AUDITORIUM" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/AUDITORIUM/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA SAN FRANCESCO D_ASSISI" .
+
+<http://dati.comune.matera.it/19luoghicultura/AUDITORIUM/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66533" ;
+        cis:HasLong  "16.60959" .
+
+<http://dati.comune.matera.it/19luoghicultura/PALOMBARO_LUNGO>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "PALOMBARO LUNGO" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/PALOMBARO_LUNGO/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PIAZZA VITTORIO VENETO" .
+
+<http://dati.comune.matera.it/19luoghicultura/PALOMBARO_LUNGO/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66667" ;
+        cis:HasLong  "16.60645" .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_SANTA_LUCIA_E_AGATA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CHIESA SANTA LUCIA E AGATA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_SANTA_LUCIA_E_AGATA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PORTA PISTOLA" .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_SANTA_LUCIA_E_AGATA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66708" ;
+        cis:HasLong  "16.61387" .
+
+<http://dati.comune.matera.it/19luoghicultura/COMITATO_MARIA_S.S._DELLA_BRUNA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "COMITATO MARIA S.S. DELLA BRUNA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/COMITATO_MARIA_S.S._DELLA_BRUNA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PIAZZA VITTORIO VENETO" .
+
+<http://dati.comune.matera.it/19luoghicultura/COMITATO_MARIA_S.S._DELLA_BRUNA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66712" ;
+        cis:HasLong  "16.60595" .
+
+<http://dati.comune.matera.it/19luoghicultura/UNIVERSITA_DELLA_BASILICATA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "UNIVERSITA DELLA BASILICATA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/UNIVERSITA_DELLA_BASILICATA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA SAN ROCCO" .
+
+<http://dati.comune.matera.it/19luoghicultura/UNIVERSITA_DELLA_BASILICATA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66728" ;
+        cis:HasLong  "16.60859" .
+
+<http://dati.comune.matera.it/19luoghicultura/CASA_CAVA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CASA CAVA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CASA_CAVA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA SAN PIETRO BARISANO" .
+
+<http://dati.comune.matera.it/19luoghicultura/CASA_CAVA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66849" ;
+        cis:HasLong  "16.60921" .
+
+<http://dati.comune.matera.it/19luoghicultura/COMPLESSO_DEL_CASALE>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "COMPLESSO DEL CASALE" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/COMPLESSO_DEL_CASALE/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA CASALE" .
+
+<http://dati.comune.matera.it/19luoghicultura/COMPLESSO_DEL_CASALE/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66871" ;
+        cis:HasLong  "16.61061" .
+
+<http://dati.comune.matera.it/19luoghicultura/SAN_GIOVANNI_BATTISTA>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "SAN GIOVANNI BATTISTA" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/SAN_GIOVANNI_BATTISTA/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "PIAZZA SAN GIOVANNI BATTISTA" .
+
+<http://dati.comune.matera.it/19luoghicultura/SAN_GIOVANNI_BATTISTA/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66774" ;
+        cis:HasLong  "16.60796" .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_DI_SAN_PIETRO_BARISANO>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CHIESA DI SAN PIETRO BARISANO" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_DI_SAN_PIETRO_BARISANO/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "VIA SAN PIETRO BARISANO" .
+
+<http://dati.comune.matera.it/19luoghicultura/CHIESA_DI_SAN_PIETRO_BARISANO/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.66876" ;
+        cis:HasLong  "16.60927" .
+
+<http://dati.comune.matera.it/19luoghicultura/CAVA_PARADISO>
+        rdf:type     cis:CulturalInstituteOrSite ;
+        rdfs:label   "CAVA PARADISO" ;
+        cis:hasSite  cis:Site .
+
+<http://dati.comune.matera.it/19luoghicultura/CAVA_PARADISO/address>
+        rdf:type    cis:Address ;
+        rdfs:label  "CONTRADA LA PALOMBA" .
+
+<http://dati.comune.matera.it/19luoghicultura/CAVA_PARADISO/geometry>
+        rdf:type     cis:Geometry ;
+        cis:HasLat   "40.68084" ;
+        cis:HasLong  "16.60508" .
